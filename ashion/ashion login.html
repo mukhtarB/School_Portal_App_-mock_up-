@@ -78,13 +78,14 @@
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__close">+</div>
         <ul class="offcanvas__widget">
-            <li><span class="icon_search search-switch"></span></li>
-            <li><a href="#"><span class="icon_heart_alt"></span>
-                <div class="tip">2</div>
-            </a></li>
-            <li><a href="#"><span class="icon_bag_alt"></span>
-                <div class="tip">2</div>
-            </a></li>
+            
+            <!-- <li><a href="#"><span class="icon_heart_alt"></span> -->
+                <!-- <div class="tip">2</div> -->
+            <!-- </a></li> -->
+            <!-- <li><a href="#"><span class="icon_bag_alt"></span> -->
+                <!-- <div class="tip">2</div> -->
+            <!-- </a></li> -->
+			<li><span class="icon_search search-switch"></span></li>
         </ul>
         <div class="offcanvas__logo">
             <a href="./index.html"><img src="img/logo.png" alt=""></a>
@@ -108,12 +109,9 @@
                 </div>
                 <div class="col-xl-6 col-lg-7">
                     <nav class="header__menu">
-                        <ul>
+                        <ul class="d-sm-flex justify-content-around">
                             <li><a href="./index.html">Home</a></li>
-                            <li><a href="#">Women’s</a></li>
-                            <li><a href="#">Men’s</a></li>
-                            <li class="active"><a href="./shop.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
+                            <li><a href="./shop.html">Shop</a>
                                 <ul class="dropdown">
                                     <li><a href="./product-details.html">Product Details</a></li>
                                     <li><a href="./shop-cart.html">Shop Cart</a></li>
@@ -134,12 +132,12 @@
 						<!-- </div> -->
                         <ul class="header__right__widget">
                             <li><span class="icon_search search-switch"></span></li>
-                            <li><a href="#"><span class="icon_heart_alt"></span>
-                                <div class="tip">2</div>
-                            </a></li>
-                            <li><a href="#"><span class="icon_bag_alt"></span>
-                                <div class="tip">2</div>
-                            </a></li>
+                            <!-- <li><a href="#"><span class="icon_heart_alt"></span> -->
+                                <!-- <div class="tip">2</div> -->
+                            <!-- </a></li> -->
+                            <!-- <li><a href="#"><span class="icon_bag_alt"></span> -->
+                                <!-- <div class="tip">2</div> -->
+                            <!-- </a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -156,7 +154,7 @@
 	<section class="login_box_area p_120 my-5 py-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-6 my-1">
 					<div class="shadowhover card login_box_img">
 						<img class="img-fluid card-img-top" src="img/login.jpg" alt="">
 						<div class="hoverCard">
@@ -166,8 +164,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="shadowhover col-lg-6">
-					<iframe frameborder = "0" width = "100%" height = "100%" style="min-height:400px;" src = "logFrame.html" name = "log_reg_frame" id = "log_reg_frame"></iframe>
+				<div class="col-lg-6 my-1">
+					<iframe frameborder = "0" width = "100%" height = "100%" style="min-height:500px" 
+					src = "logFrame.html" name = "log_reg_frame" class = "shadowhover" id = "log_reg_frame"></iframe>
 					<!--
 						<div class="login_form_inner">
 							<h3>Log in to enter</h3>
