@@ -59,37 +59,38 @@
    
 
 <!--================Registration Box Area =================-->
-<section class="login_box_area p_120">
+<section class="">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<div class="login_form_inner reg_form">
-						<h3>Create an Account</h3>
+					<div class="px-4">
+						<h3 class = "my-5">Create an Account</h3>
 						<form class="row login_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-							<div class="col-md-12 form-group">
+							<div class="col-md-12 form-group mb-3">
 								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 							</div>
-							<div class="col-md-12 form-group">
+							<div class="col-md-12 form-group mb-3">
 								<input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
 							</div>
-							<div class="col-md-12 form-group">
+							<div class="col-md-12 form-group mb-3">
 								<input type="text" class="form-control" id="password" name="password" placeholder="Password">
 							</div>
-							<div class="col-md-12 form-group">
+							<div class="col-md-12 form-group mb-3">
 								<input type="password" class="form-control" id="pass" name="pass" placeholder="Confirm password">
 							</div>
-							<div class="col-md-6">
-								<div class="creat_account">
-									<input type="checkbox" id="f-option2" name="selector">
-									<label for="f-option2">Keep me logged in</label><br />
-									
+							<div class="col-md-6 mt-2 mb-3">
+								<div class="creat_account d-sm-flex justify-content-between">
+									<div>
+										<input type="checkbox" id="f-option2" name="selector">
+										<label for="f-option2">Keep me logged in</label>
+									</div>
+									<div>
+										<a href="logFrame.html">Back to Login?</a>
+									</div>
 								</div>
 							</div>
-							<div class="col-md-6 form-group">
-								<a href="logFrame.html">Back to Login?</a>
-							</div>
+							
 							<div class="col-md-12 form-group">
-								
 								<button type="submit" value="submit" class="btn submit_btn">Register</button>
 							</div>
 						</form>
