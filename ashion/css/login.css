@@ -1,0 +1,39 @@
+.hoverCard{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	transform: translateY(-50%)
+}
+.x_spacing{
+	max-width: 380px;
+	margin: 0px auto 25px;
+}
+.main_btn{
+	display: inline-block;
+	background: #1641ff;
+	padding: 0px 30px;
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	border: 1px solid #1641ff;
+	cursor: pointer;
+	transition: all 300ms linear 0s;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+.main_btn:hover{
+	background: transparent;
+	color: #1641ff;
+}
+.main_btn:focus{
+	text-decoration:none;
+}
+.shadowhover:hover{
+	box-shadow:0px 0px 5px 1px #333;
+}
