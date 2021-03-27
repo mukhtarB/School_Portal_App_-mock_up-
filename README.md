@@ -1,4 +1,4 @@
-# Python_Web_App
+# Python_Web_App: School_Portal
  Building a mock up / demo of a school portal app with functionality.
  Available as a jupiter (.ipynb) note file.
 
